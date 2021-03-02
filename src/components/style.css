@@ -28,3 +28,17 @@ header {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   line-height: 1.2;
 }
+
+/* ---- Main Content ---- */
+.card {
+  background-color: #7b9c72;
+}
+.card-body {
+
+}
+.card-title {
+
+}
+.card-text {
+
+}

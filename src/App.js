@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/header.js';
+import BakedGood from './components/baked-good-card.js';
 
 class App extends React.Component {
   render() {
@@ -7,6 +8,7 @@ class App extends React.Component {
       <div>
         <Header />
         <main>
+          <BakedGood />
         </main>
       </div>
     )
