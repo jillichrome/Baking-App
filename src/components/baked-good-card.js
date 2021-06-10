@@ -11,7 +11,7 @@ class BakedGood extends React.Component {
             <div className="card-body">
               <h5 className="card-title">{cards.title}</h5>
               <p className="card-text">{cards.description}</p>
-              <a href={cards.link} className="card-link">Recipe Link</a>
+              <a href={cards.link} className="card-link" target='_blank'>Recipe Link</a>
             </div>
           </div>
         )
