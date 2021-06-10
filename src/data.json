@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "title": "Hot Chocolate Cake",
+      "description": "Chocolate Cake with white chocolate marshmallow ganache and hot chocolate buttercream",
+      "link": "https://www.lifeloveandsugar.com/hot-chocolate-cake/",
+      "image": "hccake.jpg"
+    },
+    {
+      "title": "Earl Grey Cake",
+      "description": "Earl grey cake with green tea dark chocolate ganache and lemon sea salt flakes",
+      "link": "https://livforcake.com/earl-grey-cake/",
+      "image": "earl-grey.jpg"
+    }
+  ]
+}
