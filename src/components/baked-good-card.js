@@ -11,7 +11,7 @@ class BakedGood extends React.Component {
             <div className="card-body">
               <h5 className="card-title">{cards.title}</h5>
               <p className="card-text">{cards.description}</p>
-              <a href={cards.link} className="card-link" target='_blank'>Recipe Link</a>
+              <a href={cards.link} className="card-link" target='_blank' rel="noreferrer">Recipe Link</a>
             </div>
           </div>
         )
@@ -19,11 +19,9 @@ class BakedGood extends React.Component {
     }
 
     return(
-      <div className= "container">
-        <div className="row">
-          <div className="col">
-            {card}
-          </div>
+      <div className="container">
+        <div className="cards">
+          {card}
         </div>
       </div>
     )
