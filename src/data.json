@@ -4,13 +4,29 @@
       "title": "Hot Chocolate Cake",
       "description": "Chocolate Cake with white chocolate marshmallow ganache and hot chocolate buttercream",
       "link": "https://www.lifeloveandsugar.com/hot-chocolate-cake/",
-      "image": "hccake.jpg"
+      "image": "hccake.jpg",
+      "tag": "cake"
     },
     {
       "title": "Earl Grey Cake",
       "description": "Earl grey cake with green tea dark chocolate ganache and lemon sea salt flakes",
       "link": "https://livforcake.com/earl-grey-cake/",
-      "image": "earl-grey.jpg"
+      "image": "earl-grey.jpg",
+      "tag": "cake"
+    },
+    {
+      "title": "Apple Rosemary Pie",
+      "description": "Made with Granny Smith apples, Rosemary sryup, and a shortbread crust",
+      "link": "https://www.thebakerchick.com/rosemary-apple-pie/",
+      "image": "apple-rosemary.jpg",
+      "tag": "pie"
+    },
+    {
+      "title": "Victoria Sponge Cake",
+      "description": "Sponge cake with fresh cut strawberries and whipped cream",
+      "link": "https://www.bbc.co.uk/food/recipes/mary_berrys_perfect_34317",
+      "image": "victoria-sponge.jpg",
+      "tag": "cake"
     }
   ]
 }

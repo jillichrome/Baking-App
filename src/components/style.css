@@ -30,6 +30,10 @@ header {
 }
 
 /* ---- Main Content ---- */
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 .cards {
   display: flex;
@@ -45,6 +49,39 @@ header {
   border-radius: 5px 5px 0 0;
 }
 
+/* Sidebar */
+.sidebar {
+  background-color: #bcb3a4;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+h4 {
+  color: #ffffff;
+  margin-top: 1em;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+.tag {
+  background: #eee;
+  border-radius: 3px 0 0 3px;
+  display: flex;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  -webkit-transition: color 0.2s;
+}
+
 /* ---- Tablet Styles ---- */
 @media only screen and (min-width: 760px) {
   .cards {
@@ -54,6 +91,7 @@ header {
   .card {
     flex: 0 1 calc(40% - 1em);
   }
+
 }
 
 /* ---- Desktop Styles ---- */
@@ -63,5 +101,16 @@ header {
   }
   .card {
     flex: 0 1 calc(25% - 1em);
+  }
+
+  .main {
+    flex: 1;
+    align-items: center;
+  }
+  .sidebar {
+    width: 25%;
+    height: 25%;
+    margin-top: 2em;
+    margin-right: 1em;
   }
 }
